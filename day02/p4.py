@@ -29,6 +29,13 @@ if __name__ == '__main__':
         {'name':'홍말숙', 'age':24, 'major':'sw'}
     ]
 
+    #전체 학생들의 나이합과 평균 출력
+    sum = 0
+    count = 0
+    for data in sts:
+        sum += data['age']
+    print(f'결과 합은{sum} 평균은{sum / len(sts)}')
+
     #sw 학과 학생들의 나이합과 평균 출력
     sum=0
     count=0
