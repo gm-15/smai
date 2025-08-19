@@ -1,3 +1,5 @@
+from calc.calcfnc import plus, minus
+
 def plus(a,b):
     result = a+b
     return result
