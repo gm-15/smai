@@ -1,11 +1,3 @@
-# import unittest
-#
-#
-# class MyTestCase(unittest.TestCase):
-#     def test_something(self):
-#         self.assertEqual(True, False)  # add assertion here
-from day01.p2 import result
-
 if __name__ == '__main__':
     while True:
         cmd=input("명령을 입력하세요(p,m,q)")
