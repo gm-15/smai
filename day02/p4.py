@@ -23,10 +23,10 @@ if __name__ == '__main__':
 
     #응용
     sts = [
-        {'name':'이말숙', 'age':21, 'major':'sw'},
+        {'name': '이말숙', 'age': 21, 'major': 'sw'},
         {'name': '김말숙', 'age': 22, 'major': 'sw'},
         {'name': '박말숙', 'age': 23, 'major': 'sw'},
-        {'name':'홍말숙', 'age':24, 'major':'sw'}
+        {'name': '홍말숙', 'age': 24, 'major': 'sw'}
     ]
 
     #전체 학생들의 나이합과 평균 출력

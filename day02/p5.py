@@ -1,4 +1,4 @@
-
+#텍스트로 저장
 if __name__ == '__main__':
     #File Write & Read
     with open("data/mytext.txt",'w',encoding='utf-8')as f:
